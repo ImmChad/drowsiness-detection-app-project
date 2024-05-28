@@ -50,6 +50,11 @@ Once the virtual environment is activated, install the necessary libraries using
 pip install kivy kivymd
 ```
 
+**📑 OpenCV library**
+```sh
+pip install opencv-python
+```
+
 ## Run the Application
 
 Run the application to ensure everything is set up correctly:
@@ -62,6 +67,11 @@ python main.py
 ```sh
 deactivate
 ```
+
+## Export the Application
+
+You can export the mobile app here: 
+https://colab.research.google.com/drive/1NlODsndZX_clE6kLLanciBUono84CnK9#scrollTo=SXfAWrCMp2n_
 
 
 ## Author
