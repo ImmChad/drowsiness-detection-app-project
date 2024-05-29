@@ -6,6 +6,8 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
 requirements = python3==3.7.6,hostpython3==3.7.6,cython==0.29.33,kivy,kivymd==1.1.1,pillow
+# Thêm lệnh prebuild để áp dụng patch
+p4a.hook.prebuild = python ./prebuild_patch.py
 orientation = portrait
 osx.python_version = 3.7.6
 osx.kivy_version = 1.9.1
