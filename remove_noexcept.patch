@@ -1,0 +1,10 @@
+--- a/kivy/core/image/_img_sdl2.pyx
++++ b/kivy/core/image/_img_sdl2.pyx
+@@ -14,7 +14,7 @@ cdef class SDL2ImageLoader:
+
+     size_t(* read) ( SDL_RWops * context, void *ptr, size_t size, size_t maxnum)
+     size_t(* write) (SDL_RWops * context, void *ptr, size_t size, size_t num)
+     int (* close) (SDL_RWops * context)
+
+-cdef size_t rwops_bytesio_write(SDL_RWops *context, const void *ptr, size_t size, size_t num) noexcept:
++cdef size_t rwops_bytesio_write(SDL_RWops *context, const void *ptr, size_t size, size_t num):
