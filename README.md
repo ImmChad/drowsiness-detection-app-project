@@ -73,6 +73,24 @@ deactivate
 You can export the mobile app here: 
 https://colab.research.google.com/drive/1NlODsndZX_clE6kLLanciBUono84CnK9#scrollTo=SXfAWrCMp2n_
 
+Export the mobile app: 
+
+Reference link: https://buildozer.readthedocs.io/en/latest/installation.html
+
+
+First, install the buildozer project with:
+```sh
+pip3 install --user --upgrade buildozer
+```
+
+If you use window, you have to use Wsl or ubuntu terminal. Or you should use Ubuntu 20.04 and 22.04 (64bit)
+```sh
+sudo apt update
+sudo apt install -y git zip unzip openjdk-17-jdk python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev
+pip3 install --user --upgrade Cython==0.29.33 virtualenv
+```
+
+
 
 ## Author
 ![Kenny Truong](/assets/images/KENNY.JPG)
