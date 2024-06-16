@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    >
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:visibility="gone"
+                android:id="@+id/btn_control"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/baseline_play_circle_24"
+                android:scaleType="fitXY"
+                android:backgroundTint="#00000000"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+            <ImageButton
+                android:id="@+id/btn_volume"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/baseline_volume_up_24"
+                android:scaleType="fitXY"
+                android:backgroundTint="#00000000"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+            <SeekBar
+                android:visibility="gone"
+                android:layout_toEndOf="@id/btn_volume"
+                android:progressTint="@color/white"
+                android:thumbTint="@color/white"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/seekbar_video_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:thumb="@color/white"
+                />
+        </LinearLayout>
+
+</RelativeLayout>

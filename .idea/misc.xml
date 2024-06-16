@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (Drowsiness-App)" project-jdk-type="Python SDK" />
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Document/3_Nam_3_VKU/HocKi2/4_DoanChuyenNganh1/App/Main-App/Drowsiness-App/app/src/main/res/drawable-anydpi-v24/ic_baseline_add_24.xml" value="0.1805" />
+        <entry key="..\:/Document/3_Nam_3_VKU/HocKi2/4_DoanChuyenNganh1/App/Main-App/Drowsiness-App/app/src/main/res/drawable/custom_alert_background.xml" value="0.1695" />
+        <entry key="..\:/Document/3_Nam_3_VKU/HocKi2/4_DoanChuyenNganh1/App/Main-App/Drowsiness-App/app/src/main/res/layout/activity_login.xml" value="0.140625" />
+        <entry key="..\:/Document/3_Nam_3_VKU/HocKi2/4_DoanChuyenNganh1/App/Main-App/Drowsiness-App/app/src/main/res/layout/activity_main.xml" value="0.24635416666666668" />
+        <entry key="..\:/Document/3_Nam_3_VKU/HocKi2/4_DoanChuyenNganh1/App/Main-App/Drowsiness-App/app/src/main/res/layout/custom_alert_dialog.xml" value="0.22780797101449277" />
+        <entry key="..\:/Document/3_Nam_3_VKU/HocKi2/4_DoanChuyenNganh1/App/Main-App/Drowsiness-App/app/src/main/res/layout/custom_control_video.xml" value="0.140625" />
+        <entry key="..\:/Document/3_Nam_3_VKU/HocKi2/4_DoanChuyenNganh1/App/Main-App/Drowsiness-App/app/src/main/res/layout/fragment_camera.xml" value="0.2726449275362319" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>
